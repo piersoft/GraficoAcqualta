@@ -252,7 +252,7 @@ fclose($XMLFile);
             graph.valueField = "value4";
 
             // and add graph to the chart
-
+  chart.startDuration = 1;
             chart.addGraph(graph);            
 
             // 'chartdiv' is id of a container 
